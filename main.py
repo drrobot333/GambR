@@ -206,4 +206,5 @@ async def on_command_error(ctx, error):
         embed = gamble.returnAlert("⚠명령어 오류⚠", "\"!도움\"을 입력하여 명령어를 확인하세요.")
         await ctx.send(embed = embed)
 
-bot.run('ODY2NTc4OTQzNTY5NTU5NTUy.YPUmiA.e71obb8wpzmHjjMLde8W2w-TX6g') #토큰
+tok = "ODY2NTc4OTQzNTY5NTU5NTUy"+".YPUmiA.WE2A1YbOCP6W4SgBWvdC2evLcE4"
+bot.run(tok) #토큰
